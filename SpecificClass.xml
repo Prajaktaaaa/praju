@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Specific Suit">
+  <test thread-count="1" name="Specific Test">  
+    <classes>
+      <class name="TestCases.HardAssertionTest"/>
+      <class name="TestCases.GroupTest"/>
+      <class name="TestCases.SoftAssertionTest"/>
+      <class name="TestCases.PriorityTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
