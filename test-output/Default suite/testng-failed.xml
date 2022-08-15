@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.HardAssertionTest">
+      <class name="TestCases.LoginPageText">
         <methods>
-          <include name="method11"/>
-          <include name="method3"/>
-          <include name="method2"/>
+          <include name="verifyZerodhaLogoTest"/>
+          <include name="setup"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyKiteLogoTest"/>
+          <include name="loginZerodhaAccTest"/>
+          <include name="exit"/>
         </methods>
-      </class> <!-- TestCases.HardAssertionTest -->
+      </class> <!-- TestCases.LoginPageText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
